@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Talk With Mee</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+<style>
+nav {
+  overflow: hidden;
+  background-color: black;
+}
+nav ul li {
+  list-style: none;
+  float: left;
+}
+nav ul li a{
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+}
+nav ul li a:hover {
+  background-color: #D08AFF;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 32px;
+}
+
+.center{
+	text-align: justify;
+	max-width: 600px;
+	margin: auto;
+
+}
+
+.pic1{
+	float: left;
+}
+
+.pic2{
+	float: right;
+}
+
+div{
+	background-color: white;
+	width: 100%;
+}
+
+
+</style>
+</head>
+<body>
+	<header >
+    <!--Header Top-->
+   <div class="header" align="center">
+    <a href="testing.html"><img src="talkwithme1.png" alt="talkwithme" class="responsive-image"></a>
+  	</div>
+						
+
+	</header>
+	<!-- Navigation -->
+	<nav>
+			<ul>
+		  		<li><a href="testing.html">Home</a></li>
+		  		<li><a href="home.html">Portfolio</a></li>
+		  		<li><a href="aboutus.html">About Us</a></li>
+		  		<li><a href="contactus.html">Contact Us</a></li>
+		  	</ul>
+	</nav>
+ 
+	<!-- Slide Show -->
+	<section>
+  		<img class="mySlides" src="deyun1.jpg" style="width:100%">
+  		<img class="mySlides" src="deyunshe1.jpeg" style="width:100%">
+  		<img class="mySlides" src="deyunpeople.jpg" style="width:100%">
+	</section>
+
+	<!-- Description -->
+<div>
+	<section class="center">
+  	<h2 align="center">DEYUNSHE 德云社</h2>
+  	<p align="center"><i>Chinese CrossTalk Assiociation</i></p>
+  	<p>Deyunshe (Chinese: 德云社), formally Beijing Deyunshe Culture Communication Company Ltd., is a Chinese xiangsheng organization and folk art performance group based in Beijing, established by comedians Zhang Wenshun, Guo Degang and Li Jing in 1995. Originally known as the Beijing Conversation Conference, in 2003 it changed its name to Deyunshe. It is the key to "let the cross talk back to the theatre". On July 3, 2011, Deyunshe inaugurated a new form in the North Exhibition Theatre, by using the dialects dramas and comic dialogues to interpret the cross talks of various styles from the Qing dynasty to the Republic of China.</p>
+	</section>
+
+	<section class="center">
+	<h3 align="center">What is CrossTalk</h3>
+	<p>Xiangsheng (相声) (literally: 'face and voice'), also known as crosstalk, is a traditional performing art in Chinese comedy, and one of the most popular elements in Chinese culture. It is typically performed as a dialogue between two performers, or rarely as a monologue by a solo performer (similar to most forms of stand-up comedy in Western culture), or even less frequently, as a group act by multiple performers. The Xiangsheng language, rich in puns and allusions, is delivered in a rapid, bantering style, typically in the Beijing dialect (or in Mandarin Chinese with a strong northern accent). The acts would sometimes include singing, Chinese rapping, and musical instruments.</p>
+	</section>
+
+
+	<section class="center">
+	<h4 align="center">Founders</h4>
+	<p><img class="pic1" src="wenshun.jpg" alt="ZhangWenShun" style="width: 170px; height: 180px; margin-right: 15px;"><b>Zhang Wenshun</b> (October 17, 1938-February 16, 2009), born in Beijing, Chinese comic actor.One of the founders of the 21st Century Revival of China Xiangsheng, one of the founders of Beijing Deyunshe. He followed Mr. Donggua to learn the funny drums. After retirement, he performed traditional cross talk with Guo Degang, and together with Guo Degang and Li Jing launched the Beijing Deyun Crosstalk Art Study Club, which was later renamed Beijing Deyun Club. Many of Deyun's early comic works benefited from his excavation and organization. Zhang Wenshun passed away in 2009 due to cancer.</p>
+
+
+	<p><img class="pic2" src="guodegang.jpg" alt="Guo DeGang" style="width: 170px; height: 180px; margin-left: 15px;">Guo Degang 郭德纲 is a Chinese crosstalk comedian and actor.Guo began his acting studies by studying Pingshu from Gao Qinghai, crosstalk from Chang Baofeng and Hou Yaowen, and opera, including Peking opera, Ping opera, and Hebei Clapper opera.n 1996 Guo founded the crosstalk group "De Yun She" in Beijing, which subsequently collaborated with Zhang Wenshun and Yu Qian in 2000 and Yu Qian, Zhang Yongyong, Wang Shiyong, and Yang Jinming in 2002.
+	</section>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+<!-- Footer -->
+	<footer>
+	  <p>Posted by Nur Mysarah JRN1904832</p>
+	  <p>For more information: <a href="https://www.weibo.com/u/1822528455" target="_blank">Deyunshe德云社</a></p>
+	</footer>
+
+
+	<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
